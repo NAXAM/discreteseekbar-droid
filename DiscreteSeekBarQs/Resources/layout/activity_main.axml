@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <org.adw.library.widgets.DiscreteSeekBar
+        android:id="@+id/discrete3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dsb_alwayShowIndicator="true"
+        app:dsb_alwayShowThumb="true"
+        app:dsb_indicatorElevation="16dp"
+        app:dsb_indicatorSeparation="0dp"
+        app:dsb_max="10"
+        app:dsb_min="1"
+        app:dsb_scrubberHeight="8dp"
+        app:dsb_thumbSize="24dp"
+        app:dsb_thumbTextSize="16sp"
+        app:dsb_trackHeight="7dp"
+        android:layout_marginTop="80dp" />
+</LinearLayout>
