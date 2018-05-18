@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.DiscreteSeekBar.Droid</id>
+        <version>1.0.0</version>
+        <authors>NAXAM</authors>
+        <owners>NAXAM COMPANY LIMITED</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - DiscreteSeekBar Android</title>
+        <summary>DiscreteSeekBar Android 1.0.0</summary>
+        <description>Xamarin Binding Library - DiscreteSeekBar Android</description>
+        <iconUrl>https://avatars2.githubusercontent.com/u/223713?s=460</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/mapbox-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017-present NAXAM</copyright>
+        <tags>xamarin, Xamarin.Android, DiscreteSeekBar</tags>
+        <dependencies>
+            <dependency id="Xamarin.Android.Support.v4" version="27.0.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Naxam.DiscreteSeekBar.Droid/bin/Release/Naxam.DiscreteSeekBar.Droid.dll" target="lib/MonoAndroid10/Naxam.DiscreteSeekBar.Droid.dll" />
+    </files>
+</package>
